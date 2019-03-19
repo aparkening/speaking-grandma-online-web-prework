@@ -25,4 +25,4 @@ def speak_to_grandma(phrase)
   return return_prhase
 end
 
-speak_to_grandma(gets.chomp)
+# speak_to_grandma(gets.chomp)
