@@ -21,7 +21,7 @@ def speak_to_grandma(phrase)
   else
      return_prhase = "HUH?! SPEAK UP, SONNY!"
   end
-  puts return_prhase
+  # puts return_phrase
   return return_prhase
 end
 
