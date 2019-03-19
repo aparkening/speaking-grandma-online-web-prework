@@ -17,12 +17,14 @@ require 'pry'
 def speak_to_grandma(phrase)
   phrase = phrase.to_s # Ensure phrase is a string
   if (phrase == "I LOVE YOU GRANDMA!")
-    return "I LOVE YOU TOO PUMPKIN!"
+    return_prhase = "I LOVE YOU TOO PUMPKIN!"
   elsif (phrase == phrase.upcase)
-    return "NO, NOT SINCE 1938!"
+     return_prhase = "NO, NOT SINCE 1938!"
   else
-    return "HUH?! SPEAK UP, SONNY!"
+     return_prhase = "HUH?! SPEAK UP, SONNY!"
   end
+  puts return_prhase
+  return return_prhase
 end
 
 speak_to_grandma(gets.chomp)
