@@ -15,6 +15,7 @@ require 'pry'
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(phrase)
+  binding.pry
   phrase = phrase.to_s # Ensure phrase is a string
   if (phrase == "I LOVE YOU GRANDMA!")
     return "I LOVE YOU TOO PUMPKIN!"
