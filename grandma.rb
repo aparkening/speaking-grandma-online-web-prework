@@ -25,3 +25,5 @@ def speak_to_grandma(phrase)
     return "HUH?! SPEAK UP, SONNY!"
   end
 end
+
+speak_to_grandma(gets.chomp)
