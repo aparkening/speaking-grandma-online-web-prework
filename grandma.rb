@@ -13,11 +13,11 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(phrase)
-  phrase = phrase.to_s 
-  if (phrase == "")
-    puts "NO, NOT SINCE 1938!"
-  elsif (phrase == "I LOVE YOU GRANDMA!")
+  phrase = phrase.to_s
+  if (phrase == "I LOVE YOU GRANDMA!")
     puts "I LOVE YOU TOO PUMPKIN!"
+  elsif (phrase.capitals)
+    puts "NO, NOT SINCE 1938!"
   else
     puts "HUH?! SPEAK UP, SONNY!"
   end
